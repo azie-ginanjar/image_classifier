@@ -13,5 +13,5 @@ To run this application please follow these steps below:
 
 - Install python 3.7.
 - Install all dependencies using `pip install -r requirements.txt`
-- Run `python path/to/image/file path/to/keras/model --top_k k --category_names label_map.json`.
+- Run `python predict.py path/to/image/file path/to/keras/model --top_k k --category_names label_map.json`.
 - I provide sample for keras model on this project. If you want to use this model you can provide model1589354751.h5 on previous step. But you are free to use your own model.
